@@ -1,0 +1,45 @@
+
+@media only screen and (min-width:301px) and (max-width:600px){
+   body{
+    background: green;
+   }
+}
+
+@media only screen and (min-width:400px) and (max-width:600px){
+    body{
+     background: pink;
+    }
+ }
+ 
+
+@media only screen and (min-width:601px) and (max-width:800px){
+   body{
+    background: orange;
+   }
+}
+
+@media only screen and (min-width:801px) and (max-width:1000px){
+    body{
+        background: blue;
+    }
+}
+
+@media only screen and (min-width:1001px) and (max-width:2000px){
+    body{
+        background: purple;
+    }
+}
+
+@media only screen and (min-width:2001px) and (max-width:6000px){
+    body{
+        background: yellow;
+    }
+}
+
+*/
+
+
+
+
+
+https://meet.google.com/fdo-owfc-fqb
