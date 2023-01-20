@@ -1,0 +1,545 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f3f3;
+}
+
+/*Header code here*/
+.btn_toggle_nav{
+   
+    width:80px;
+    height: 40px;
+    background-image: url(imgs/pinkhamburger.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+    cursor: pointer;
+    visibility: visible;
+    position: relative;
+    right: 1rem;
+    bottom:.7rem;
+  
+  
+}
+html,
+body{
+    background:#f5f3f3;
+    width:100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    
+}
+
+
+
+
+.nav {
+    visibility: hidden;
+    text-decoration: none;
+    color:#c88989;
+    font-size: 1.3rem;
+    font-family: crushed, Times New Roman, Times, serif;
+    padding:.8rem;
+    line-height: 2.5rem;
+    
+    
+}
+
+li a{
+	padding-left: .5rem;
+    text-decoration: none;
+    color:#c88989;
+}
+
+
+
+
+
+.nav a:hover{
+   cursor: pointer;
+   
+   
+}
+
+.nav ul li a:hover{
+    color:#f5f3f3;
+    background-color: #c88989;
+    padding: .4rem;
+    border-radius: .2rem;
+   
+  
+ 
+
+
+}
+
+
+/*other header code start*/
+  
+    
+header{
+    position: relative;
+    top:0;
+    width: auto;
+    height: 6rem;
+}
+
+
+
+.header_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2.5rem;
+  
+}
+
+
+
+
+.nav{
+   position: relative;
+   visibility: hidden;
+   background-color:#f5f3f3c0;
+ 
+   height: 18.5rem;
+   width:8rem;
+   float:left;
+   z-index: 1;
+  
+
+   
+    
+}
+
+
+.nina_logo{
+
+    position:relative;
+    top:.7rem;
+    width: 8rem;
+    left:.4rem;
+
+}
+
+
+
+.shop_logo{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.shop_logo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+
+.shop_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1.2rem;
+    position: relative;
+    top:.6rem;
+    
+  
+    
+   
+}
+
+/*ToolTip section******************************************/
+.tooltip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+   
+   
+
+}
+ .tooltxt{
+    visibility:hidden;
+    width:3rem;
+    color:#f5f3f3;
+    background-color: #070b0d6f;
+    text-align: center;
+    padding:0.258rem;
+    top:1.5rem;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    font-family: noto sans kr;
+    font-size: 0.8rem;
+}
+
+.tooltip:hover .tooltxt{
+    visibility: visible;
+}
+
+.tooltxt2{
+    visibility:hidden;
+    width:3.5rem;
+    color:#f5f3f3;
+    background-color: #070b0d6f;
+    text-align: center;
+    padding:0.258rem;
+    top:1.5rem;
+    
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    font-family: noto sans kr;
+    font-size: 0.8rem;
+}
+
+.tooltip:hover .tooltxt2{
+    visibility: visible;
+}
+
+.tooltxt3{
+    visibility:hidden;
+    width:3rem;
+    color:#f5f3f3;
+    background-color: #070b0d6f;
+    text-align: center;
+    padding:0.258rem;
+    top:1.5rem;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    font-family: noto sans kr;
+    font-size: 0.8rem;
+}
+
+.tooltip:hover .tooltxt3{
+    visibility: visible;
+}
+
+/*End ToolTip section*******************************************/
+
+/*end header code**************************************************************************/
+
+
+
+
+
+
+
+/*Search bar*****************************************************************************/
+
+
+
+
+input[type=text]{
+
+  width: 19rem;
+  height: 1.630rem;
+  background: #e1e6e1;
+  position: relative;
+  bottom:18rem;
+  border-radius: 10rem;
+  text-transform: uppercase;
+  color:#070b0d89;
+  border:1px solid#070b0d;
+  font-family: 'Noto Sans KR, Franklin Gothic Medium, Arial Narrow', Arial, sans-serif;
+
+  
+    
+
+    
+}
+
+.search_flex{
+   position: relative;
+   left:7rem;
+   z-index: 0;
+   top:3rem;
+
+  
+}
+
+
+
+
+/*search bar end*/
+/*other header code end*/
+
+/*End Header code*/
+
+
+
+
+/*Main stuff code*/
+
+.page_title{
+    text-align: center;
+    color: #c88989;
+    font-family: crushed;
+    font-size: 6rem;
+    padding-bottom: 2rem;
+}
+
+.outfit{
+    width: 10rem;
+
+}
+
+.grid_clothes{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding:.5rem;
+   
+    
+}
+
+.group_1, .group_2, .group_3{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+   
+    gap:4rem;
+}
+
+.outfit_deets{
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+
+   
+    
+}
+
+.clothing_desc{
+    color:#070b0d;
+    font-size: 1rem;
+    font-family: noto sans kr;
+    padding-top:.5rem;
+}
+
+
+
+.outfit:hover{
+    filter: blur(50%);
+    filter: drop-shadow(2px 4px 8px #070b0d7e);
+  
+    cursor: pointer;
+}
+
+.price_drop{
+    display: flex;
+    flex-direction: row;
+    gap:.5rem;
+}
+
+.price{
+    color:#070b0d94;
+    font-size: 0.8rem;
+    font-family: noto sans kr;
+    padding-top:.5rem;
+    text-decoration: line-through;
+
+}
+
+.price_2{
+    color:#070b0d;
+    font-size: 0.8rem;
+    font-family: noto sans kr;
+    padding-top:.5rem;
+}
+
+
+
+
+/*Main stuff code end*/
+
+
+
+
+
+
+/*Footer Code*/
+.foot_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    height: 22rem;
+    background-color: #c88989;
+    clear: both;
+    bottom: 0;
+    clear: both;
+    position: relative;
+    top:8rem;
+    
+}
+
+
+
+.flex_foot_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:1.6rem;
+    position: relative;
+    
+}
+
+/*footer form start*/
+
+
+.lorem_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+
+.signup{
+    color:#070b0d;
+    font-family: crushed;
+    font-size: 1.5rem;
+    position: relative;
+    top:2.5rem;
+    letter-spacing: 0.222;
+    margin-right: 5rem;
+    
+}
+
+input[type=text]{
+    width: 20rem;
+    padding:6px ;
+    display:inline-block;
+    border-radius: .1rem;
+    box-sizing: border-box;
+    position: relative;
+    margin-right: 4rem;
+    top:1rem;
+    border: none;
+    
+    
+}
+
+input[type=submit]{
+    cursor: pointer;
+    width:5rem;
+    height: 1.6rem;
+    border:none;
+    border-radius: .240rem;
+    background-color:#070b0d;
+    color:#f5f3f3;
+    position: relative;
+    bottom:2.5rem;
+    left:11rem;
+    font-family: noto sans kr;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    top:-0.6rem;
+
+}
+
+
+input[type=submit]:hover{
+    background-color:#f5f3f3;
+    color:#070b0d;
+
+}
+
+
+/*footer form end*/
+
+.lorem{
+    font-family: noto sans kr;
+    font-size: .7rem;
+    color:#f5f3f3;
+    line-height: 1rem;
+    padding-left: 4rem;
+    padding-right: 5rem;
+    text-align: justify;
+    max-width: 75rem;
+    width:100%;
+    
+  
+   
+    
+}
+
+.second_menu_flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top:2rem;
+  right: -1rem;
+}
+
+.second_menu_flex a{
+    text-decoration: none;
+}
+
+.second_menu_flex p:hover{
+    transform: scale(1.2);
+}
+
+.fa-brands{
+    color:#070b0d;
+}
+
+.fa-brands:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+.second_menu_flex p{
+    
+    color:#f5f3f3;
+    font-family: crushed;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+
+#copy_right{
+    text-align: center;
+    color:#f5f3f3;
+    text-align: center;
+    font-family: noto sans kr;
+    position: relative;
+    top:4rem;
+    font-size: .7rem;
+    right: 1rem;
+
+}
+
+
+/*End Footer code*/
