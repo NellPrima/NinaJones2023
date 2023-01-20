@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#f5f3f3 ;
+}
+
+/*header code start*/
+header{
+    background-color: purple;
+}
+
+
+/*header code end*/
+
+
+/*main code start*/
+/*main code end*/
+
+
+/*footer code start*/
+footer{
+    background-color: green;
+}
+/*footer code end*/
