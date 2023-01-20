@@ -91,24 +91,12 @@ footer{
     height: 20rem;
     background-color: #c88989;
     clear: both;
-    bottom: 0;
-    clear: both;
-    position: relative;
-    top:8rem;
+    position: absolute;
 }
 
-/*
-@media only screen and (min-width:100px) and (max-width:300px){
-    body{
-        background: red;
 
-    }
-}
 
-*/
-@media  (max-width:768px){
 
-/*Mobile*******************************************************************************************/
 
 
 
@@ -119,6 +107,8 @@ header{
 	top:0;
 	width: auto;
     height: 6rem;
+    
+    margin-bottom: 2rem;
 }
 
 
@@ -249,18 +239,21 @@ header{
 
 
 /*Search bar*****************************************************************************/
-input[type=text]{
+.search_flex input[type=text]{
     
-    width: 19rem;
+    width: 15rem;
     height: 1.630rem;
-    background: #e1e6e1;
+    background:#e1e6e1;
     position: relative;
     bottom:18rem;
-    border-radius: 10rem;
+    border-radius: .123rem;
     text-transform: uppercase;
     color:#070b0d89;
-    border:1px solid#070b0d;
+    border:.0025rem solid#070b0d;
     font-family: 'Noto Sans KR, Franklin Gothic Medium, Arial Narrow', Arial, sans-serif;
+    left: -2rem;
+    background-image: url(/imgs/loupe\ 5.png);
+    background-repeat: no-repeat;
  
     
       
@@ -269,10 +262,12 @@ input[type=text]{
   }
   
   .search_flex{
-     position: relative;
-     left:7rem;
-     z-index: 0;
-     top:1rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     margin-top: 2rem;
+     
   
     
   }
@@ -281,39 +276,127 @@ input[type=text]{
 
 /*search bar end*/
 
+.header{
+    color:#c88989;
+    font-family: crushed;
+    font-size: 4rem;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    z-index: 0;
+    bottom:10rem;
+}
 
-
-/*Form stuff***************/
+/*form*****************************************************/
 
 .form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap:2rem;
+    position: absolute;
+    z-index: 0;
+    
+   
+}
+
+label{
+   position: relative;
+   margin:1rem;
+   bottom:8.5rem;
+}
+
+input[type=text], select{
+    width:100%;
+    display:inline-block;
+    outline:none;
+    
+   
+    
+}
+
+#fname{
+    margin-left:1rem;
     position: relative;
-    top:5rem;
+    top:-8rem;
+    border:2px solid #070b0d8e;
+   
 }
 
- textarea{
-    color:#070b0d;
-    width:83%;
+#lname{
+    margin-left:1rem;
     position: relative;
-    right:3rem;
-
+    top:-8rem;
+    border:2px solid #070b0d8e;
+    
 }
 
-.form input{
+#text_area{
+    margin-top:5rem;
+    margin-left:1rem;
+    box-sizing: border-box;
+    border: 1px solid #070b0d6f;
+    width: 20rem;
+   
+    resize: none;
+    margin-bottom:5rem;
+    position: relative;
+    top:-10rem;
+    outline:none;
+    
+}
+
+#text_area:focus{
+    border:3px solid #985657;
+}
+
+
+.submit_form_bttn{
+    width:5rem;
+    background-color: #c88989;
+    color:#f5f3f3;
+    padding:.5rem;
+    margin:0.8rem;
+    border:none;
+    border-radius: .5rem;
+    cursor: pointer;
+    position: relative;
+    top:-15rem;
+    font-size: 1rem;
     font-family: noto sans kr;
-    letter-spacing: .1rem;
-    color:#070b0d;
-
+    
+    
 }
 
-.form label{
-    font-family: noto sans kr;
-    color:#070b0d;
+.submit_form_bttn:hover{
+    
+    background-color: #f5f3f3;
+    color:#c88989;
+    cursor: pointer;
+    border:.1rem solid #c88989;
+    
 }
+
+
+
+  #lname:focus{
+    border:3px solid #985657;
+    
+
+  }
+
+  #fname:focus{
+    border:3px solid #985657;
+
+  }
+
+   
+
+    
+   
+
+
+
+
+
+
+
 
 
 
@@ -330,22 +413,6 @@ input[type=text]{
 }
 
 
-
-
-footer{
-    
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: auto;
-    height: 20rem;
-    background-color: #c88989;
-    clear: both;
-    bottom: 0;
-    clear: both;
-    position: relative;
-    top:8rem;
-}
 
 
 
@@ -491,6 +558,5 @@ input[type=submit]:hover{
 
 }
 
+/*Mobile*******************************************************************************************/
 
-
-}

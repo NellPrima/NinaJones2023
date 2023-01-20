@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Header code here*/
+header{
+    background-color: red;
+}
+
+/*End Header code*/
+
+
+
+
+
+
+/*Footer Code*/
+footer{
+    background-color: green;
+}
+
+
+/*End Footer code*/
