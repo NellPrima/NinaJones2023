@@ -18,6 +18,99 @@ header{
 
 
 /*main code start*/
+
+.title{
+    text-align: center;
+    color: #c88989;
+    font-family: crushed;
+    font-size: 6rem;
+    padding-bottom: 1rem;
+    padding-top:2rem;
+}
+
+.season{
+    text-align: center;
+    color: #c88989;
+    font-family: crushed;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    padding-top:.5rem;
+
+}
+
+.outfit{
+    width: 10rem;
+
+}
+
+.grid_clothes{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding:.5rem;
+   
+    
+}
+
+.group_1, .group_2, .group_3{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+   
+    gap:4rem;
+}
+
+.outfit_deets{
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+
+   
+    
+}
+
+.clothing_desc{
+    color:#070b0d;
+    font-size: 1rem;
+    font-family: noto sans kr;
+    padding-top:.5rem;
+}
+
+
+
+.outfit:hover{
+    filter: blur(50%);
+    filter: drop-shadow(2px 4px 8px #070b0d7e);
+  
+    cursor: pointer;
+}
+
+.price_drop{
+    display: flex;
+    flex-direction: row;
+    gap:.5rem;
+}
+
+.price{
+    color:#070b0d94;
+    font-size: 0.8rem;
+    font-family: noto sans kr;
+    padding-top:.5rem;
+    text-decoration: line-through;
+
+}
+
+.price_2{
+    color:#070b0d;
+    font-size: 0.8rem;
+    font-family: noto sans kr;
+    padding-top:.5rem;
+}
+
+
+
 /*main code end*/
 
 
