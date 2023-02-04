@@ -19,7 +19,7 @@
     right: 1rem;
   
 }
-html,
+
 body{
     background:#f5f3f3;
     width:100%;
@@ -70,16 +70,7 @@ li a{
     background-color: #c88989;
     padding: .4rem;
     border-radius: .2rem;
-   
-  
- 
-
-
 }
-
-
-
-
 
 
 footer{
@@ -96,18 +87,12 @@ footer{
     top:8rem;
 }
 
-/*
-@media only screen and (min-width:100px) and (max-width:300px){
-    body{
-        background: red;
 
-    }
-}
 
-*/
-@media  (max-width:768px){
 
-/*Mobile*******************************************************************************************/
+
+
+
 
 
 
@@ -176,11 +161,9 @@ header{
     gap:1.2rem;
     position: relative;
     top:1rem;
-    
-  
-    
    
 }
+
 
 /*ToolTip section******************************************/
 .tooltip{
@@ -253,6 +236,8 @@ header{
 }
 
 /*End ToolTip section*******************************************/
+
+
 
 /*end header code**************************************************************************/
 
@@ -667,5 +652,5 @@ input[type=submit]:hover{
 }
 
 
-}
+
 
