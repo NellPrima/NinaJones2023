@@ -131,8 +131,13 @@ header{
     position: relative;
     top:.9rem;
     left: -2rem;
-   
     width: 8rem;
+    
+}
+
+.nina_logo:hover{
+    cursor: pointer;
+
 }
 
 
@@ -172,11 +177,9 @@ header{
     align-items: center;
     justify-content: center;
     position: relative;
-   
-   
-   
-
 }
+
+
  .tooltxt{
     visibility:hidden;
     width:3rem;
@@ -400,10 +403,6 @@ input[type=text]{
     position: relative;
     top:7rem;
     filter: drop-shadow(1px 3px 2px #070b0d6f);
-   
-  
-    
-    
 
 }
 
@@ -650,6 +649,369 @@ input[type=submit]:hover{
     right: 1rem;
 
 }
+
+/*Cell phones******************************/
+
+@media  screen  and (max-width:450px) and (min-width:350px) /*between 350 and 450*/ {
+    .nina_logo{
+       position: relative;
+       left:-1rem;
+    }
+
+    body{
+        background-color: purple;
+    }
+
+    .tooltip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    
+}
+
+
+
+    
+/*Banner code start******************************************/
+
+.flex_this{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap:.5rem;
+
+
+}
+
+
+.home_banner{
+   
+    background-image: url(imgs/homepageimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    width: 100%;
+    height:35vh;
+    position: relative;
+    top:4rem;
+    z-index:5;
+ 
+
+}
+
+
+.home_banner_txt1,.home_banner_txt2{
+    color:#fdfbfb;
+    font-family: crushed, Times New Roman, Times, serif;
+    font-size: 7vw;
+    filter: drop-shadow(2px 5px 8px #070b0d);
+    position: relative;
+    top:8rem;
+    letter-spacing: 0.1rem;
+    right:5rem;
+    white-space: nowrap;
+  
+    
+}
+
+
+
+.home_banner_txt2{
+    position: relative;
+    right:2rem;
+   
+  
+}
+
+
+.home_banner_bttn{
+    cursor: pointer;
+    border:none;
+    width: 25vw;
+    height:4vh;
+    border-radius: 1rem;
+    background: #c88989;
+    color:#fdfbfb;
+    position: relative;
+    top:9rem;
+    left: 3rem;
+    font-size:3vw;
+    font-family: crushed;
+    z-index: 1;
+   
+    
+}
+
+
+
+.home_banner_bttn:hover{
+    color:#c88989;
+    background: #fdfbfb;
+}
+
+.season_txt{
+    text-align: center;
+    color:#f5f3f3;
+    font-size: 2.8rem;
+    font-family: crushed;
+    position: relative;
+    bottom:13rem;
+    letter-spacing: 0.2rem;
+    filter: drop-shadow(2px 2px 2px #070b0d);
+}
+ 
+
+
+
+
+
+
+/*Banner code end********************************************/
+
+.shop_article{
+   
+    width:20rem;
+    height:4rem;
+    background: #fdfbfb;
+    border:0.123rem solid #985657;
+    position: relative;
+    top:7rem;
+    filter: drop-shadow(1px 3px 2px #070b0d6f);
+
+}
+
+.shop_article_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+}
+
+
+/********FOOTER CODE************************/
+
+.foot_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    height: 24rem;
+    background-color: #c88989;
+    clear: both;
+    bottom: 0;
+    clear: both;
+    position: relative;
+    top:8rem;
+}
+
+
+
+.flex_foot_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:1.6rem;
+    position: relative;
+    top:-2rem;
+    
+}
+
+/*footer form start*/
+
+
+.lorem_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+
+.signup{
+    color:#f5f3f3;
+    font-family: crushed;
+    font-size: 1.5rem;
+    position: relative;
+    top:.4rem;
+    letter-spacing: 0.222;
+    margin-right: 5rem;
+    padding:1rem;
+    text-align: center;
+    
+}
+
+input[type=text]{
+    width: 18rem;
+    padding:6px ;
+    display:inline-block;
+    border-radius: .1rem;
+    box-sizing: border-box;
+    position: relative;
+    right:.8rem;
+    top:1rem;
+    border: none;
+    
+    
+}
+
+input[type=submit]{
+    cursor: pointer;
+    width:5rem;
+    height: 1.6rem;
+    border:none;
+    border-radius: .240rem;
+    background-color:#070b0d;
+    color:#f5f3f3;
+    position: relative;
+    bottom:2.5rem;
+    left:10rem;
+    font-family: noto sans kr;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    top:-0.6rem;
+
+}
+
+
+input[type=submit]:hover{
+    background-color:#f5f3f3;
+    color:#070b0d;
+
+}
+
+
+/*footer form end*/
+
+.lorem{
+    font-family: noto sans kr;
+    font-size: .7rem;
+    color:#f5f3f3;
+    line-height: 1rem;
+    width:100%;
+    position: relative;
+    left:.5rem;
+    padding:1rem;
+    padding-right: 2rem;
+   
+    
+    
+    
+  
+   
+    
+}
+
+/*
+
+.second_menu_flex{
+ 
+}
+*/
+.second_menu_flex a{
+    text-decoration: none;
+}
+
+.second_menu_flex p:hover{
+    transform: scale(1.2);
+}
+
+.fa-brands{
+    color:#070b0d;
+}
+
+.fa-brands:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+.second_menu_flex p{
+    
+    color:#f5f3f3;
+    font-family: crushed;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+
+#copy_right{
+    text-align: center;
+    color:#f5f3f3;
+    text-align: center;
+    font-family: noto sans kr;
+    position: relative;
+    top:4rem;
+    font-size: .7rem;
+    right: 1rem;
+}
+
+
+
+
+
+
+}
+
+
+/*
+@media screen and (max-width:451px)less than 451px {
+    body{
+        background-color: yellow;
+    }
+}
+
+
+
+@media  screen  and (min-width:450px) more than 450px {
+
+body{
+    background-color: green;
+}
+
+.tooltip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:5rem;
+}
+
+.nina_logo{
+    position: relative;
+    left:3rem;
+    width:9rem;
+ }
+
+
+
+
+}
+
+
+*/
+
 
 
 
