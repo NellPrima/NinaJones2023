@@ -65,12 +65,7 @@ li a{
    
 }
 
-.nav ul li a:hover{
-    color:#f5f3f3;
-    background-color: #c88989;
-    padding: .4rem;
-    border-radius: .2rem;
-}
+
 
 
 footer{
@@ -103,28 +98,12 @@ footer{
 
 
 
-header{
-	position: relative;
-	top:0;
-	width: auto;
-    height: 6rem;
-}
-
-
-.nav{
-   position: relative;
-    visibility: hidden;
-	background-color:#f5f3f3c0;
-	z-index: 6;
-	height: 20rem;
-	width:10rem;
-   
-	
-}
 
 .nav{
     float: left;
 }
+
+/*
 
 .nina_logo{
     float: left;
@@ -134,6 +113,8 @@ header{
     width: 8rem;
     
 }
+
+*/
 
 .nina_logo:hover{
     cursor: pointer;
@@ -652,15 +633,46 @@ input[type=submit]:hover{
 
 /*Cell phones******************************/
 
-@media  screen  and (max-width:450px) and (min-width:350px) /*between 350 and 450*/ {
+@media only screen  and (min-width:320px) and (max-width:768px) /*between 320 and 768*/ {
+
+    
+header{
+	position: relative;
+	top:0;
+	width: auto;
+    height: 6rem;
+}
+
+
+.nav{
+   position: relative;
+    visibility: hidden;
+	background-color:#f5f3f3c0;
+	z-index: 6;
+	height: 20rem;
+	width:10rem;
+   
+	
+}
+
+.nav ul li a:hover{
+    color:#f5f3f3;
+    background-color: #c88989;
+    padding: .4rem;
+    border-radius: .2rem;
+}
+   
+   
+   
+   
+   
+   
+   
     .nina_logo{
        position: relative;
        left:-1rem;
     }
 
-    body{
-        background-color: purple;
-    }
 
     .tooltip{
     display: flex;
@@ -711,7 +723,7 @@ input[type=submit]:hover{
     font-size: 7vw;
     filter: drop-shadow(2px 5px 8px #070b0d);
     position: relative;
-    top:8rem;
+    top:14rem;
     letter-spacing: 0.1rem;
     right:5rem;
     white-space: nowrap;
@@ -733,12 +745,12 @@ input[type=submit]:hover{
     cursor: pointer;
     border:none;
     width: 25vw;
-    height:4vh;
+    height:3vh;
     border-radius: 1rem;
     background: #c88989;
     color:#fdfbfb;
     position: relative;
-    top:9rem;
+    top:15rem;
     left: 3rem;
     font-size:3vw;
     font-family: crushed;
@@ -974,8 +986,8 @@ input[type=submit]:hover{
 }
 
 
-/*
-@media screen and (max-width:451px)less than 451px {
+/* Tablets**************************************************/
+@media only screen and (min-width:768px) and (max-width:1024px) /*between 768 and 1024*/  {
     body{
         background-color: yellow;
     }
@@ -983,10 +995,12 @@ input[type=submit]:hover{
 
 
 
-@media  screen  and (min-width:450px) more than 450px {
+/*DESKTOP******************************************************************/
+
+@media only screen  and (min-width:1024px) and (max-width:2000px) /*between 1024 and 2000*/ {
 
 body{
-    background-color: green;
+    background-color:#f5f3f3;
 }
 
 .tooltip{
@@ -995,14 +1009,269 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
-    left:5rem;
+    left:40rem;
+    bottom: 5rem;
+
+    
 }
+
+.tooltxt{
+    visibility:hidden;
+    width:3rem;
+    color:#f5f3f3;
+    background-color: #070b0d6f;
+    text-align: center;
+    padding:0.258rem;
+    top:1.5rem;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    font-family: noto sans kr;
+    font-size: 0.8rem;
+}
+
+.tooltip:hover .tooltxt{
+    visibility: visible;
+}
+
+.tooltxt2{
+    visibility:hidden;
+    width:3.5rem;
+    color:#f5f3f3;
+    background-color: #070b0d6f;
+    text-align: center;
+    padding:0.258rem;
+    top:1.5rem;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    font-family: noto sans kr;
+    font-size: 0.8rem;
+}
+
+.tooltip:hover .tooltxt2{
+    visibility: visible;
+}
+
+.tooltxt3{
+    visibility:hidden;
+    width:3rem;
+    color:#f5f3f3;
+    background-color: #070b0d6f;
+    text-align: center;
+    padding:0.258rem;
+    top:1.5rem;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    font-family: noto sans kr;
+    font-size: 0.8rem;
+}
+
+.tooltip:hover .tooltxt3{
+    visibility: visible;
+}
+
 
 .nina_logo{
     position: relative;
     left:3rem;
-    width:9rem;
+    width:12rem;
+    bottom:2rem;
+    z-index: 3;
  }
+
+ .nina_logo:hover{
+    cursor: pointer;
+    
+ }
+
+ .btn_toggle_nav{
+    visibility: hidden;
+
+  
+}
+
+body{
+  
+    width:100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    
+}
+
+.nav{
+    position: relative;
+     visibility: visible;
+     
+     z-index: 6;
+     height: 3rem;
+     width:100%;
+    
+     
+ }
+
+.nav ul a{
+    color:#070b0d;
+}
+
+
+
+.nav {
+    visibility: visible;
+    text-decoration: none;
+    color:#c88989;
+    font-size: 1.5rem;
+    font-family: crushed, Times New Roman, Times, serif;
+    padding:.8rem;
+    line-height: 2.5rem;
+    
+    
+}
+
+li{
+    float: left;
+    
+}
+
+li a{
+	padding-left: .8rem;
+    text-decoration: none;
+    color:#c88989;
+    position: relative;
+    top:.5rem;
+    left:30rem;
+  
+}
+
+a{
+    padding:1.2rem;
+}
+
+
+
+
+
+.nav a:hover{
+   cursor: pointer;
+   
+   
+}
+
+.nav ul li a:hover{
+    color:#c88989;
+    text-decoration: underline;
+  
+   
+    padding: .4rem;
+    border-radius: .2rem;
+}
+
+main{
+    padding:1.5rem;
+}
+
+
+/*Banner code start******************************************/
+
+.flex_this{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap:.5rem;
+
+
+}
+
+
+.home_banner{
+   
+    background-image: url(imgs/homepageimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    width: 100%;
+    height:40rem;
+    position: relative;
+    top:4rem;
+    z-index:5;
+ 
+
+}
+
+
+.home_banner_txt1,.home_banner_txt2{
+    color:#fdfbfb;
+    font-family: crushed, Times New Roman, Times, serif;
+    font-size: 7vw;
+    filter: drop-shadow(2px 5px 8px #070b0d);
+    position: relative;
+    top:15rem;
+    letter-spacing: 0.1rem;
+    right:5rem;
+  
+    
+}
+
+
+
+.home_banner_txt2{
+    position: relative;
+    right:-5rem;
+   
+  
+}
+
+
+.home_banner_bttn{
+    cursor: pointer;
+    border:none;
+    width: 12vw;
+    height:6vh;
+    border-radius: 1rem;
+    background: #c88989;
+    color:#fdfbfb;
+    position: relative;
+    top:18rem;
+    left: 25.5rem;
+    font-size:2vw;
+    font-family: crushed;
+    z-index: 1;
+   
+    
+}
+
+
+
+.home_banner_bttn:hover{
+    color:#c88989;
+    background: #fdfbfb;
+}
+
+.season_txt{
+    text-align: center;
+    color:#f5f3f3;
+    font-size: 2.8rem;
+    font-family: crushed;
+    position: relative;
+    bottom:13rem;
+    letter-spacing: 0.2rem;
+    filter: drop-shadow(2px 2px 2px #070b0d);
+}
+ 
+
+
+
+
+
+
+/*Banner code end********************************************/
+
+
 
 
 
@@ -1010,7 +1279,7 @@ body{
 }
 
 
-*/
+
 
 
 
