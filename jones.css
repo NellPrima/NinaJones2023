@@ -785,7 +785,7 @@ header{
 
 .shop_article{
    
-    width:50rem;
+    width:25rem;
     height:4rem;
     background: #fdfbfb;
     border:0.123rem solid #985657;
@@ -973,6 +973,7 @@ input[type=submit]:hover{
     right: 1rem;
 }
 
+/*Footer Code End*/
 
 
 
