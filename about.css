@@ -5,6 +5,7 @@
 }
 
 
+
 .btn_toggle_nav{
    
     width:80px;
@@ -154,7 +155,6 @@ li a{
     text-align: center;
     padding:0.258rem;
     top:1.5rem;
-    
     border-radius: 6px;
     position: absolute;
     z-index: 1;
@@ -191,7 +191,117 @@ li a{
 
 /*end header code**************************************************************************/
 
+/*Form start code*/
 
+.contact{
+    border: 4px solid red;
+    
+    
+    
+}
+
+
+
+.contact_title{
+    color:#c88989;
+    font-size: 5rem;
+    position: relative;
+    top:-5rem;
+    padding-top:8rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+
+
+
+input[type=text], select{
+    width:100%;
+    display:inline-block;
+    outline:none;
+    
+   
+    
+}
+
+#fname{
+    left: 5rem;
+    position: relative;
+    top:-8rem;
+    border:2px solid #070b0d8e;
+    margin-bottom: 1rem;
+   
+}
+
+#lname{
+    left:5rem;
+    position: relative;
+    top:-8rem;
+    border:2px solid #070b0d8e;
+    
+}
+
+#text_area{
+    margin-top:5rem;
+    left:5rem;
+    box-sizing: border-box;
+    border: 1px solid #070b0d6f;
+    width: 20rem;
+    resize: none;
+    margin-bottom:5rem;
+    position: relative;
+    top:-10rem;
+    outline:none;
+    border:2px solid red;
+    
+}
+
+#text_area:focus{
+    border:3px solid #985657;
+}
+
+
+.submit_form_bttn{
+    width:5rem;
+    background-color: #c88989;
+    color:#f5f3f3;
+    padding:.5rem;
+    border:none;
+    border-radius: .5rem;
+    cursor: pointer;
+    position: relative;
+    top:-14rem;
+    font-size: 1rem;
+    font-family: noto sans kr;
+    left:12rem;
+}
+
+.submit_form_bttn:hover{
+    
+    background-color: #f5f3f3;
+    color:#c88989;
+    cursor: pointer;
+    border:.1rem solid #c88989;
+    
+}
+
+
+
+  #lname:focus{
+    border:3px solid #985657;
+    
+
+  }
+
+  #fname:focus{
+    border:3px solid #985657;
+
+  }
+
+   
+
+
+/*Form end code*/
 
 
 /********FOOTER CODE************************/
@@ -199,7 +309,7 @@ li a{
 
 
 
-.foot_flex{
+.foot_flex{/*whole Footer*/
     display: grid;
     flex-direction: column;
     align-items: center;
@@ -207,17 +317,7 @@ li a{
    
 }
 
-/*
-.foot_flex {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0;
-    grid-row-gap: 24px;
-    }
 
-
-*/
 
 footer{
     
@@ -235,7 +335,7 @@ footer{
 }
 
 
-
+/*
 .flex_foot_icons{
     display: flex;
     flex-direction: row;
@@ -245,7 +345,7 @@ footer{
     position: relative;
     
 }
-
+*/
 /*footer form start*/
 
 
@@ -303,14 +403,14 @@ input[type=submit]:hover{
 
 .lorem{
     font-family: noto sans kr;
-    font-size: .7rem;
+   
     color:#f5f3f3;
     line-height: 1rem;
-    padding-left: 4rem;
+    /*padding-left: 4rem;
     padding-right: 5rem;
     text-align: justify;
     max-width: 75rem;
-    width:100%;
+    width:100%;*/
     
   
    
@@ -323,7 +423,7 @@ input[type=submit]:hover{
   align-items: center;
   justify-content: center;
   position: relative;
-  top:2rem;
+  
   gap:2rem;
  
 }
@@ -411,7 +511,6 @@ header{
    position: relative;
    visibility: hidden;
    background-color:#f5f3f3c0;
- 
    height: 18.5rem;
    width:8rem;
    float:left;
@@ -482,7 +581,7 @@ font-family: crushed;
 padding-top:5rem;
 padding-bottom: 2rem;
 text-align: center;
-z-index: 0;
+
 
 
 }
@@ -495,6 +594,8 @@ padding-top:5rem;
 padding-bottom: 2rem;
 text-align: center;
 z-index: 0;
+position: relative;
+
 
 }
 
@@ -503,11 +604,18 @@ z-index: 0;
 
 
 .found_img{
-width: 15rem;
-
+width: 12rem;
 filter: drop-shadow(5px 2px 2px #c88989);
+}
 
-
+.found_grp_grid{
+    display:flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    
 }
 
 .line{
@@ -610,7 +718,7 @@ padding-top: 3rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0;
+    grid-column-gap: 1rem;
     grid-row-gap: 24px;
     }
 
@@ -635,23 +743,29 @@ footer{
 
 
 .flex_foot_icons{
+   grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  
+
+    
+}
+
+.flex_foot_icons{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap:1.6rem;
     position: relative;
-    top:-2rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+   
     
 }
 
-.foot_flex{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 1;
 
-}
 
 /*footer form start*/
 
@@ -661,9 +775,25 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
     
-    
+}
+
+.lorem_form{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+
+.lorem{/*Come back to this later****************/
+   padding-top:1rem;
+   padding-left: 5rem;
+   padding-right:5rem;
+   font-size:1.7vw;
+   font-size:1vh;
+
+
 }
 
 
@@ -682,6 +812,8 @@ footer{
     grid-row-end:2 ;
     
 }
+
+
 
 input[type=text]{
     width: 18rem;
@@ -727,14 +859,12 @@ input[type=submit]:hover{
 
 .lorem{
     font-family: noto sans kr;
-    font-size: .7rem;
+  
     color:#f5f3f3;
     line-height: 1rem;
     width:100%;
     position: relative;
-    left:.2rem;
-    padding:1rem;
-    padding-right: 2rem;
+ 
 }
 
 
@@ -767,6 +897,12 @@ input[type=submit]:hover{
     text-align: center;
 }
 
+.second_menu_flex{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+}
+
 
 #copy_right{
     text-align: center;
@@ -777,6 +913,12 @@ input[type=submit]:hover{
     top:4rem;
     font-size: .7rem;
     right: 1rem;
+}
+
+#copy_right{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
 }
 
 
@@ -800,12 +942,29 @@ input[type=submit]:hover{
 /* Tablets**************************************************/
 @media only screen and (min-width:768px) and (max-width:1024px) /*between 768 and 1024*/  {
 
+
+    .nav{
+        position:relative ;
+        visibility: hidden;
+        background-color:#f5f3f3c0;
+        height: 18.5rem;
+        width:8rem;
+        float:left;
+        z-index: 1 ;
+    
+       
+     
+        
+         
+     }
+
+
     .nina_logo{
         float: left;
         position: relative;
-        top:.9rem;
-        left: -.5rem;
-        width: 15rem;
+        top:.5rem;
+        left:12rem;
+        width: 10rem;
         
     }
     
@@ -818,6 +977,7 @@ input[type=submit]:hover{
         align-items: center;
         justify-content: center;
         position: relative;
+        left:12rem;
         
         
     }
@@ -829,7 +989,7 @@ input[type=submit]:hover{
     .found_grp_grid{
         display:flex;
         flex-direction: row;
-        gap: 1rem;
+        gap: 2rem;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap; 
@@ -837,20 +997,24 @@ input[type=submit]:hover{
     
     
     .found_img{
-    width:10rem;
-   
+    width:12.5rem;
+    filter: drop-shadow(5px 2px 2px #c88989);
     
     }
-    
+
     .found_grp_grid{
         display:flex;
         flex-direction: row;
         gap: 1rem;
         align-items: center;
         justify-content: center;
-       
+        flex-wrap: wrap; 
+        
+        
     }
     
+    
+   
     
     
     
@@ -861,7 +1025,9 @@ input[type=submit]:hover{
     padding-top:5rem;
     padding-bottom: 2rem;
     text-align: center;
-    z-index: 0;
+    
+   
+    
     
     
     }
@@ -873,6 +1039,7 @@ input[type=submit]:hover{
     padding-top:5rem;
     padding-bottom: 2rem;
     text-align: center;
+    position: relative;
     z-index: 0;
     
     }
@@ -881,13 +1048,6 @@ input[type=submit]:hover{
     
     
     
-    .found_img{
-    width: 80%;
-    height:80%;
-    filter: drop-shadow(5px 2px 2px #c88989);
-    
-    
-    }
     
     .line{
     display: block;
@@ -983,7 +1143,7 @@ input[type=submit]:hover{
     /*Main Code End***/
     
     /********FOOTER CODE************************/
-    
+    /*
     .foot_flex{
         display: flex;
         flex-direction: column;
@@ -991,7 +1151,7 @@ input[type=submit]:hover{
         justify-content: center;
        
     }
-    
+    */
     
     
     
@@ -1010,7 +1170,7 @@ input[type=submit]:hover{
         top:8rem;
     }
     
-    
+    /*
     
     .flex_foot_icons{
         display: flex;
@@ -1022,7 +1182,7 @@ input[type=submit]:hover{
         top:-2rem;
         
     }
-    
+    */
     /*footer form start*/
     
     
@@ -1093,15 +1253,15 @@ input[type=submit]:hover{
     
     .lorem{
         font-family: noto sans kr;
-        font-size: .8rem;
+       
         color:#f5f3f3;
         line-height: 1rem;
         width:100%;
         position: relative;
-        left:.2rem;
+        /*left:.2rem;
         padding:1rem;
         padding-right: 5rem;
-        padding-left: 5rem;
+        padding-left: 5rem;*/
        
         
         
