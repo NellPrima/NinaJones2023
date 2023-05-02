@@ -194,7 +194,7 @@ li a{
 /*Form start code*/
 
 .contact{
-    border: 4px solid red;
+    height: 30rem;
     
     
     
@@ -252,7 +252,7 @@ input[type=text], select{
     position: relative;
     top:-10rem;
     outline:none;
-    border:2px solid red;
+    
     
 }
 
