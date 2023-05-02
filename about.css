@@ -194,10 +194,7 @@ li a{
 /*Form start code*/
 
 .contact{
-    height: 30rem;
-    
-    
-    
+    height: 1rem;
 }
 
 
@@ -241,6 +238,8 @@ input[type=text], select{
     
 }
 
+
+
 #text_area{
     margin-top:5rem;
     left:5rem;
@@ -273,7 +272,7 @@ input[type=text], select{
     top:-14rem;
     font-size: 1rem;
     font-family: noto sans kr;
-    left:12rem;
+    left:5rem;
 }
 
 .submit_form_bttn:hover{
