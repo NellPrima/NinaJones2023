@@ -802,6 +802,11 @@ header{
     justify-content: center ;
 }
 
+.season_sale{
+    width:28rem;
+    filter: drop-shadow(1px 3px 2px #070b0d6f);
+}
+
 
 /********FOOTER CODE************************/
 
