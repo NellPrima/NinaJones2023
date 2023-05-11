@@ -802,10 +802,21 @@ header{
     justify-content: center ;
 }
 
-.season_sale{
+.season_sale1{
+    width:35rem;
+    filter: drop-shadow(1px 3px 2px #070b0d6f);
+}
+
+.season_sale2{
+    width:35rem;
+    filter: drop-shadow(1px 3px 2px #070b0d6f);
+}
+
+.season_sale3{
     width:28rem;
     filter: drop-shadow(1px 3px 2px #070b0d6f);
 }
+
 
 
 /********FOOTER CODE************************/
@@ -990,13 +1001,38 @@ input[type=submit]:hover{
 /* Tablets**************************************************/
 @media only screen and (min-width:768px) and (max-width:1024px) /*between 768 and 1024*/  {
 
+
+
     
+.nav{
+    position: relative;
+     visibility: hidden;
+     background-color:#f5f3f3c0;
+     z-index: 6;
+     height: 20rem;
+     width:10rem;
+    
+     
+ }
+ 
+ .nav ul li a:hover{
+     color:#f5f3f3;
+     background-color: #c88989;
+     padding: .4rem;
+     border-radius: .2rem;
+ }
+
+ 
+    
+
+
 .nina_logo{
     position: relative;
     left:8rem;
     width:12rem;
     bottom:2rem;
     z-index: 3;
+    padding-top:3rem;
  }
 
  .tooltip{
@@ -1005,8 +1041,8 @@ input[type=submit]:hover{
     align-items: center;
     justify-content: center;
     position: relative;
-    left:8rem;
-    top: .5srem;
+    left:15rem;
+    top: -5rem;
 
     
 }
@@ -1052,6 +1088,22 @@ input[type=submit]:hover{
    
    
 }
+
+.season_sale1{
+    width:50rem;
+    filter: drop-shadow(1px 3px 2px #070b0d6f);
+}
+
+.season_sale2{
+    width:45rem;
+    filter: drop-shadow(1px 3px 2px #070b0d6f);
+}
+
+.season_sale3{
+    width:40rem;
+    filter: drop-shadow(1px 3px 2px #070b0d6f);
+}
+
 
 /********FOOTER CODE************************/
 
@@ -1393,6 +1445,11 @@ a{
     padding:1.2rem;
 }
 
+a:active{
+    color:#c88989;
+
+}
+
 
 
 
@@ -1474,7 +1531,7 @@ main{
     cursor: pointer;
     border:none;
     width: 12vw;
-    height:6vh;
+    height:4vh;
     border-radius: 1rem;
     background: #c88989;
     color:#fdfbfb;
@@ -1513,6 +1570,202 @@ main{
 
 
 /*Banner code end********************************************/
+
+.season_sale1{
+    width:60rem;
+    filter: drop-shadow(1px 3px 2px #070b0d6f);
+}
+
+.season_sale2{
+    width:50rem;
+    filter: drop-shadow(1px 3px 2px #070b0d6f);
+}
+
+.season_sale3{
+    width:44rem;
+    filter: drop-shadow(1px 3px 2px #070b0d6f);
+}
+
+
+
+
+/********FOOTER CODE************************/
+
+.foot_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    height: 24rem;
+    background-color: #c88989;
+    clear: both;
+    bottom: 0;
+    clear: both;
+    position: relative;
+    top:8rem;
+}
+
+
+
+.flex_foot_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:1.6rem;
+    position: relative;
+    top:-2rem;
+    
+}
+
+/*footer form start*/
+
+
+.lorem_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+
+.signup{
+    color:#f5f3f3;
+    font-family: crushed;
+    font-size: 2rem;
+    position: relative;
+    top:.4rem;
+    letter-spacing: 0.222;
+    padding:1rem;
+    text-align: center;
+    
+}
+
+input[type=text]{
+    width: 20rem;
+    padding:6px ;
+    display:inline-block;
+    border-radius: .1rem;
+    box-sizing: border-box;
+    position: relative;
+    right:.8rem;
+    top:1rem;
+    border: none;
+    font-size: 1rem;
+    
+    
+}
+
+input[type=submit]{
+    cursor: pointer;
+    width:5rem;
+    height: 1.6rem;
+    border:none;
+    border-radius: .240rem;
+    background-color:#070b0d;
+    color:#f5f3f3;
+    position: relative;
+    bottom:2.5rem;
+    left:10rem;
+    font-family: noto sans kr;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    top:-0.6rem;
+
+}
+
+
+input[type=submit]:hover{
+    background-color:#f5f3f3;
+    color:#070b0d;
+
+}
+
+
+/*footer form end*/
+
+.lorem{
+    font-family: noto sans kr;
+    font-size: .8rem;
+    color:#f5f3f3;
+    line-height: 1rem;
+    width:100%;
+    position: relative;
+    left:.2rem;
+    padding:1rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+   
+    
+    
+    
+  
+   
+    
+}
+
+
+
+.second_menu_flex a{
+    text-decoration: none;
+}
+
+.second_menu_flex p:hover{
+    text-decoration: underline;
+    color:#f5f3f3;
+}
+
+.fa-brands{
+    color:#070b0d;
+}
+
+.fa-brands:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+.second_menu_flex p{
+    
+    color:#f5f3f3;
+    font-family: crushed;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#copy_right{
+    text-align: center;
+    color:#f5f3f3;
+    text-align: center;
+    font-family: noto sans kr;
+    position: relative;
+    top:4rem;
+    font-size: .7rem;
+    right: 1rem;
+}
+
+
+
+
+
+
 
 
 

@@ -193,6 +193,11 @@ li a{
 
 /*Form start code*/
 
+.form_wrapper{
+    border: 2px solid red;
+}
+
+
 .first_name{
     height: 25rem;
 }
@@ -607,6 +612,12 @@ width: 12rem;
 filter: drop-shadow(5px 2px 2px #c88989);
 }
 
+.found_img1{
+    width: 13rem;
+    filter: drop-shadow(5px 2px 2px #c88989);
+    }
+
+
 .found_grp_grid{
     display:flex;
     flex-direction: row;
@@ -702,6 +713,121 @@ kerning: 1rem;
 padding-top: 3rem;
 
 }
+
+/*Form start code*/
+
+.form_wrapper{
+ border: 2px solid red;
+}
+
+.first_name{
+height: 25rem;
+}
+
+
+
+.contact_title{
+color:#c88989;
+font-size: 5rem;
+position: relative;
+top:-5rem;
+padding-top:8rem;
+padding-bottom: 6rem;
+text-align: center;
+}
+
+
+
+
+input[type=text], select{
+width:100%;
+display:inline-block;
+outline:none;
+
+
+
+}
+
+#fname{
+left: 5rem;
+position: relative;
+top:-8rem;
+border:2px solid #070b0d8e;
+margin-bottom: 1rem;
+
+}
+
+#lname{
+left:5rem;
+position: relative;
+top:-8rem;
+border:2px solid #070b0d8e;
+
+}
+
+
+
+#text_area{
+margin-top:5rem;
+left:5rem;
+box-sizing: border-box;
+border: 1px solid #070b0d6f;
+width: 20rem;
+resize: none;
+margin-bottom:5rem;
+position: relative;
+top:-10rem;
+outline:none;
+
+
+}
+
+#text_area:focus{
+border:3px solid #985657;
+}
+
+
+.submit_form_bttn{
+width:5rem;
+background-color: #c88989;
+color:#f5f3f3;
+padding:.5rem;
+border:none;
+border-radius: .5rem;
+cursor: pointer;
+position: relative;
+font-size: 1rem;
+font-family: noto sans kr;
+left:5rem;
+}
+
+.submit_form_bttn:hover{
+
+background-color: #f5f3f3;
+color:#c88989;
+cursor: pointer;
+border:.1rem solid #c88989;
+
+}
+
+
+
+#lname:focus{
+border:3px solid #985657;
+
+
+}
+
+#fname:focus{
+border:3px solid #985657;
+
+}
+
+
+
+
+/*Form end code*/
+
 
 
 
@@ -1001,6 +1127,12 @@ input[type=submit]:hover{
     
     }
 
+    .found_img1{
+        width: 19.4rem;
+        filter: drop-shadow(5px 2px 2px #c88989);
+        }
+    
+
     .found_grp_grid{
         display:flex;
         flex-direction: row;
@@ -1133,6 +1265,122 @@ input[type=submit]:hover{
     padding-top: 3rem;
     
     }
+
+    /*Form start code*/
+
+    .form_wrapper{
+        border:2px solid red;
+    }
+
+.first_name{
+    height: 25rem;
+}
+
+
+
+.contact_title{
+    color:#c88989;
+    font-size: 5rem;
+    position: relative;
+    top:-5rem;
+    padding-top:8rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+
+
+
+input[type=text], select{
+    width:100%;
+    display:inline-block;
+    outline:none;
+    
+   
+    
+}
+
+#fname{
+    left: 5rem;
+    position: relative;
+    top:-8rem;
+    border:2px solid #070b0d8e;
+    margin-bottom: 1rem;
+   
+}
+
+#lname{
+    left:5rem;
+    position: relative;
+    top:-8rem;
+    border:2px solid #070b0d8e;
+    
+}
+
+
+
+#text_area{
+    margin-top:5rem;
+    left:5rem;
+    box-sizing: border-box;
+    border: 1px solid #070b0d6f;
+    width: 20rem;
+    resize: none;
+    margin-bottom:5rem;
+    position: relative;
+    top:-10rem;
+    outline:none;
+    
+    
+}
+
+#text_area:focus{
+    border:3px solid #985657;
+}
+
+
+.submit_form_bttn{
+    width:5rem;
+    background-color: #c88989;
+    color:#f5f3f3;
+    padding:.5rem;
+    border:none;
+    border-radius: .5rem;
+    cursor: pointer;
+    position: relative;
+    top:-14rem;
+    font-size: 1rem;
+    font-family: noto sans kr;
+    left:5rem;
+}
+
+.submit_form_bttn:hover{
+    
+    background-color: #f5f3f3;
+    color:#c88989;
+    cursor: pointer;
+    border:.1rem solid #c88989;
+    
+}
+
+
+
+  #lname:focus{
+    border:3px solid #985657;
+    
+
+  }
+
+  #fname:focus{
+    border:3px solid #985657;
+
+  }
+
+   
+
+
+/*Form end code*/
+
     
     
     
@@ -1315,126 +1563,28 @@ input[type=submit]:hover{
     
     
     
-    
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
 
 }
+/***Desktop***/
 
-    
-
- /*
-
-@media  (max-width:768px){
-
-   
-    
-    
-    /*header code*************************************************************
-    
-    
-    
-    
-    
-    
-    header{
-        position: relative;
-        top:0;
-        width: auto;
-        height: 6rem;
-    }
-
-
-
-    .header_grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 2.5rem;
-      
-    }
-
-
-    
-    
-    .nav{
-       position: relative;
-       visibility: hidden;
-       background-color:#f5f3f3c0;
-     
-       height: 18.5rem;
-       width:8rem;
-       float:left;
-       z-index: 1;
-      
-    
-       
-        
+@media only screen  and (min-width:1024px) and (max-width:2000px) /*between 1024 and 2000*/ {
+    body{
+        background-color:#f5f3f3;
     }
     
-   
-    .nina_logo{
-    
-        position:relative;
-        top:.7rem;
-        width: 8rem;
-        left:.4rem;
-    
-    }
-    
-    
-    
-    .shop_logo{
-        width: 1.2rem;
-        height: 1.2rem;
-    }
-    
-    .shop_logo:hover{
-        transform: scale(1.2);
-        cursor: pointer;
-    
-    }
-    
-    .shop_flex{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap:1.2rem;
-        position: relative;
-        top:.6rem;
-        
-      
-        
-       
-    }
-    
-    /*ToolTip section******************************************
     .tooltip{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         position: relative;
-       
-       
-       
+        left:40rem;
+        bottom: 5rem;
     
+        
     }
-     .tooltxt{
+    
+    .tooltxt{
         visibility:hidden;
         width:3rem;
         color:#f5f3f3;
@@ -1461,7 +1611,6 @@ input[type=submit]:hover{
         text-align: center;
         padding:0.258rem;
         top:1.5rem;
-        
         border-radius: 6px;
         position: absolute;
         z-index: 1;
@@ -1492,57 +1641,115 @@ input[type=submit]:hover{
         visibility: visible;
     }
     
-    /*End ToolTip section*******************************************
     
-    /*end header code**************************************************************************
+    .nina_logo{
+        position: relative;
+        left:3rem;
+        width:12rem;
+        bottom:2rem;
+        z-index: 3;
+     }
     
-    
-    
-    
-    
-    
-    
-    /*Search bar*****************************************************************************
-    
-    
-    
-    
-    input[type=text]{
-    
-      width: 19rem;
-      height: 1.630rem;
-      background: #e1e6e1;
-      position: relative;
-      bottom:18rem;
-      border-radius: 10rem;
-      text-transform: uppercase;
-      color:#070b0d89;
-      border:1px solid#070b0d;
-      font-family: 'Noto Sans KR, Franklin Gothic Medium, Arial Narrow', Arial, sans-serif;
-   
-      
+     .nina_logo:hover{
+        cursor: pointer;
         
+     }
     
-        
-    }
-    
-    .search_flex{
-       position: relative;
-       left:7rem;
-       z-index: 0;
-       top:3rem;
+     .btn_toggle_nav{
+        visibility: hidden;
     
       
     }
     
+    body{
+      
+        width:100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+        
+    }
+    
+    .nav{
+        position: relative;
+         visibility: visible;
+         
+         z-index: 6;
+         height: 3rem;
+         width:100%;
+        
+         
+     }
+    
+    .nav ul a{
+        color:#070b0d;
+    }
     
     
     
-    /*search bar end*/
+    .nav {
+        visibility: visible;
+        text-decoration: none;
+        color:#c88989;
+        font-size: 1.5rem;
+        font-family: crushed, Times New Roman, Times, serif;
+        padding:.8rem;
+        line-height: 2.5rem;
+        
+        
+    }
+    
+    li{
+        float: left;
+        
+    }
+    
+    li a{
+        padding-left: .8rem;
+        text-decoration: none;
+        color:#c88989;
+        position: relative;
+        top:.5rem;
+        left:30rem;
+      
+    }
+    
+    a{
+        padding:1.2rem;
+    }
+    
+    a:active{
+        color:#c88989;
+    
+    }
+    
+    
+    
+    
+    
+    .nav a:hover{
+       cursor: pointer;
+       
+       
+    }
 
+ 
+    
+    .nav ul li a:hover{
+        color:#c88989;
+        text-decoration: underline;
+      
+       
+        padding: .4rem;
+        border-radius: .2rem;
+    }
+    
+    main{
+        padding:1.5rem;
+    }
 
-    /****************New body stuff******************
-
+    /***Main part start**/
 
     .found_grp_grid{
         display:flex;
@@ -1550,63 +1757,86 @@ input[type=submit]:hover{
         gap: 1rem;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap; 
+    }
+    
+    
+    
+    
+    .found_grp_grid{
+        display:flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
        
-   
-       
-        
-        
-       
-   
-        
+    }
+    
+    
+    
+    
+    .found_txt h2 {
+    color:#070b0d;
+    font-size: 5rem;
+    font-family: crushed;
+    padding-top:5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    
+    
+    
+    }
+    
+    h2{
+    color:#070b0d;
+    font-size: 4.5rem;
+    font-family: crushed;
+    padding-top:5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    z-index: 0;
+    position: relative;
+    
+    
+    }
+    
+    
+    
+    
+    
+    .found_img{
+    width: 18rem;
+    filter: drop-shadow(5px 2px 2px #c88989);
     }
 
-
-   .found_txt h2 {
-   color:#070b0d;
-   font-size: 5rem;
-   font-family: crushed;
-   padding-top:5rem;
-   padding-bottom: 2rem;
-   text-align: center;
-   z-index: 0;
- 
-
-   }
-
-   h2{
-    color:#070b0d;
-   font-size: 5rem;
-   font-family: crushed;
-   padding-top:5rem;
-   padding-bottom: 2rem;
-   text-align: center;
-   z-index: 0;
-
-   }
-
-
-
-   .found_img{
-    width: 80%;
-    height:80%;
-    filter: drop-shadow(5px 2px 2px #c88989);
-   
-
-   }
-
-   .line{
+    .found_img1{
+        width: 19.4rem;
+        filter: drop-shadow(5px 2px 2px #c88989);
+        }
+    
+    .found_grp_grid{
+        display:flex;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap; 
+        
+    }
+    
+    .line{
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-bottom: 2px solid #c88989;
     width: 60vw;
     padding-top:3rem;
-   
-   }
-
- 
-
-   .list_founders{
+    
+    }
+    
+    
+    
+    .list_founders{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1615,49 +1845,51 @@ input[type=submit]:hover{
     gap:0.5rem;
     top:8rem;
     padding-bottom: 2rem;
-
     
-   }
-
-   .name{
+    
+    
+    }
+    
+    .name{
     color: #070b0d;
     font-family: crushed;
     font-size: 1.2rem;
     letter-spacing: 0.100rem;
-   }
-
-   .title{
+    padding-top:1rem;
+    }
+    
+    .title{
     color: #070b0d;
     font-family: noto sans kr;
     font-size: 0.9rem;
     
-
-   }
-
-   .paragraph1{
+    
+    }
+    
+    .paragraph1{
     display: flex;
     flex-direction: column;
     gap:1rem;
-    padding:1rem;
+    padding:2rem;
     text-align: justify;
     font-size: 0.9rem;
     font-family: noto sans kr;
     line-height: 1.5rem;
     kerning: 1rem;
     padding-top: 3rem;
-
-   }
-
-   .team_img{
+    
+    }
+    
+    .team_img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     filter: drop-shadow(5px 2px 2px #c88989);
-
+    
     width: 80vw;
-   }
-
-   .quote{
+    }
+    
+    .quote{
     padding-top:.5rem;
     text-align: center;
     padding:2rem;
@@ -1665,24 +1897,149 @@ input[type=submit]:hover{
     font-size: 0.600rem;
     line-height: 1rem;
     letter-spacing: 0.123rem;
-   }
-
-   .fake_para2{
-    padding:1rem;
+    }
+    
+    .fake_para2{
+    padding:2rem;
     text-align: justify;
     font-size: 0.9rem;
     font-family: noto sans kr;
     line-height: 1.5rem;
     kerning: 1rem;
     padding-top: 3rem;
+    
+    }
 
-   }
+    /*Form start code*/
+
+    .form_wrapper{
+        border: 2px solid red;
+    }
+
+.first_name{
+    height: 25rem;
+}
+
+
+
+.contact_title{
+    color:#c88989;
+    font-size: 5rem;
+    position: relative;
+    top:-5rem;
+    padding-top:8rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+
+
+
+input[type=text], select{
+    width:100%;
+    display:inline-block;
+    outline:none;
+    
+   
+    
+}
+
+#fname{
+    left: 5rem;
+    position: relative;
+    top:-8rem;
+    border:2px solid #070b0d8e;
+    margin-bottom: 1rem;
+   
+}
+
+#lname{
+    left:5rem;
+    position: relative;
+    top:-8rem;
+    border:2px solid #070b0d8e;
+    
+}
+
+
+
+#text_area{
+    margin-top:5rem;
+    left:5rem;
+    box-sizing: border-box;
+    border: 1px solid #070b0d6f;
+    width: 20rem;
+    resize: none;
+    margin-bottom:5rem;
+    position: relative;
+    top:-10rem;
+    outline:none;
+    
+    
+}
+
+#text_area:focus{
+    border:3px solid #985657;
+}
+
+
+.submit_form_bttn{
+    width:5rem;
+    background-color: #c88989;
+    color:#f5f3f3;
+    padding:.5rem;
+    border:none;
+    border-radius: .5rem;
+    cursor: pointer;
+    position: relative;
+    top:-14rem;
+    font-size: 1rem;
+    font-family: noto sans kr;
+    left:5rem;
+}
+
+.submit_form_bttn:hover{
+    
+    background-color: #f5f3f3;
+    color:#c88989;
+    cursor: pointer;
+    border:.1rem solid #c88989;
+    
+}
+
+
+
+  #lname:focus{
+    border:3px solid #985657;
+    
+
+  }
+
+  #fname:focus{
+    border:3px solid #985657;
+
+  }
+
+   
+
+
+/*Form end code*/
+
+    
+    
+    
+
+
+
+    /*Main part end**/
+
+
 
 
 
 
     
-/********FOOTER CODE************************
+/********FOOTER CODE************************/
 
 .foot_flex{
     display: flex;
@@ -1701,14 +2058,13 @@ footer{
     left: 0;
     right: 0;
     height: auto;
-    height: 20rem;
+    height: 24rem;
     background-color: #c88989;
     clear: both;
     bottom: 0;
     clear: both;
     position: relative;
-    top:8rem;
-    
+    /*top:8rem;*/
 }
 
 
@@ -1720,10 +2076,11 @@ footer{
     justify-content: center;
     gap:1.6rem;
     position: relative;
+    top:-2rem;
     
 }
 
-/*footer form start
+/*footer form start*/
 
 
 .lorem_form{
@@ -1737,13 +2094,14 @@ footer{
 }
 
 .signup{
-    color:#070b0d;
+    color:#f5f3f3;
     font-family: crushed;
-    font-size: 1.5rem;
+    font-size: 2rem;
     position: relative;
-    top:2.5rem;
+    top:.4rem;
     letter-spacing: 0.222;
-    margin-right: 5rem;
+    padding:1rem;
+    text-align: center;
     
 }
 
@@ -1754,9 +2112,10 @@ input[type=text]{
     border-radius: .1rem;
     box-sizing: border-box;
     position: relative;
-    margin-right: 4rem;
+    right:.8rem;
     top:1rem;
     border: none;
+    font-size: 1rem;
     
     
 }
@@ -1771,9 +2130,9 @@ input[type=submit]{
     color:#f5f3f3;
     position: relative;
     bottom:2.5rem;
-    left:11rem;
+    left:10rem;
     font-family: noto sans kr;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     top:-0.6rem;
 
@@ -1787,40 +2146,37 @@ input[type=submit]:hover{
 }
 
 
-/*footer form end*
+/*footer form end*/
 
 .lorem{
     font-family: noto sans kr;
-    font-size: .7rem;
+    font-size: .8rem;
     color:#f5f3f3;
     line-height: 1rem;
-    padding-left: 4rem;
-    padding-right: 5rem;
-    text-align: justify;
-    max-width: 75rem;
     width:100%;
+    position: relative;
+    left:.2rem;
+    padding:1rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+   
+    
+    
     
   
    
     
 }
 
-.second_menu_flex{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  top:2rem;
-  right: -1rem;
-}
+
 
 .second_menu_flex a{
     text-decoration: none;
 }
 
 .second_menu_flex p:hover{
-    transform: scale(1.2);
+    text-decoration: underline;
+    color:#f5f3f3;
 }
 
 .fa-brands{
@@ -1840,6 +2196,7 @@ input[type=submit]:hover{
     font-family: crushed;
     font-size: 1.4rem;
     text-transform: uppercase;
+    text-align: center;
 }
 
 
@@ -1852,10 +2209,20 @@ input[type=submit]:hover{
     top:4rem;
     font-size: .7rem;
     right: 1rem;
-
 }
 
 
 
-*/
+
+
+
     
+    
+}
+
+
+
+
+    
+
+ 
