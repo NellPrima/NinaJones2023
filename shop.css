@@ -842,21 +842,32 @@ input[type=submit]:hover{
         
     }
     /*Header Code End****/
-
-    .shopping_banner{
+/*
+    .shopping_banner_group{
         display: flex;
         flex-direction: column;
+        align-content: center;
         justify-content: center;
-        align-items: center;
         gap:1rem;
+       
+
     }
+
+
+*/
+  
 
     .shop_banner{
         width:35rem;
         position: relative;
-        z-index: 5;
+        z-index: 4;
         top:1rem;
-        padding-bottom: 5rem;
+        display: block;
+        margin-bottom: auto;
+        margin-left: auto;
+        
+
+       
     }
 
     .title{
