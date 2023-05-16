@@ -222,11 +222,7 @@ footer{
 
 
 
-/*header code start*/
 
-
-
-/*header code end*/
 
 
 /*main code start*/
@@ -236,8 +232,22 @@ footer{
     color: #c88989;
     font-family: crushed;
     font-size: 6rem;
-    padding-bottom: 1rem;
-    padding-top:2rem;
+    position: relative;
+    top:-6rem;
+    padding-top:5rem;
+    text-align: center;
+    z-index: 5;
+   
+}
+
+.shop_banner{
+    width:30rem;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    position: relative;
+    z-index: 5;
+    top:-6rem;
 }
 
 .season{
@@ -306,20 +316,15 @@ footer{
 }
 
 .price{
-    color:#070b0d94;
-    font-size: 0.8rem;
-    font-family: noto sans kr;
-    padding-top:.5rem;
-    text-decoration: line-through;
-
-}
-
-.price_2{
     color:#070b0d;
     font-size: 0.8rem;
     font-family: noto sans kr;
     padding-top:.5rem;
+   
+
 }
+
+
 
 
 
@@ -549,8 +554,8 @@ header{
     float: left;
     position: relative;
     top:.9rem;
-    left: -2rem;
-    width: 8rem;
+    left: 5rem;
+    width: 10rem;
     
 }
 
@@ -563,9 +568,42 @@ header{
     align-items: center;
     justify-content: center;
     position: relative;
+    right:-4rem;
     
     
 }
+
+
+
+
+/*main code start*/
+
+.title{
+    text-align: center;
+    color: #c88989;
+    font-family: crushed;
+    font-size: 6rem;
+    position: relative;
+    top:-6rem;
+    padding-top:5rem;
+    text-align: center;
+    z-index: 5;
+   
+}
+
+.shop_banner{
+    width:30rem;
+    height: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    position: relative;
+    z-index: 5;
+    top:-6rem;
+}
+
+/*main code end*/
+
 
 
 /****Footer Code Start cell ******/
@@ -763,7 +801,86 @@ input[type=submit]:hover{
 
 /*********************Tablet*****************************/
 
+@media only screen and (min-width:608px) and (max-width:800px) /*between 768 and 1024*/  {
+    
+    .nav{
+        position:relative ;
+        visibility: hidden;
+        background-color:#f5f3f3c0;
+        height: 18.5rem;
+        width:8rem;
+        float:left;
+        z-index: 1 ;
+    
+       
+     
+        
+         
+     }
+
+
+    .nina_logo{
+        float: left;
+        position: relative;
+        top:.5rem;
+        left:12rem;
+        width: 10rem;
+        
+    }
+    
+    
+    
+    
+        .tooltip{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left:12rem;
+        
+        
+    }
+    /*Header Code End****/
+
+    .shopping_banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:1rem;
+    }
+
+    .shop_banner{
+        width:35rem;
+        position: relative;
+        z-index: 5;
+        top:1rem;
+        padding-bottom: 5rem;
+    }
+
+    .title{
+        text-align: center;
+        color: #c88989;
+        font-family: crushed;
+        font-size: 6rem;
+        position: relative;
+        top:-2rem;
+        padding-top:5rem;
+       
+    }
+
+}
+
+
+
+
+
+/********************Tablet End**************************/
+
 
 
 
 /*********************Desktop***********************************/
+
+/*********************Desktop End**********************************/
