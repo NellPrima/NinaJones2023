@@ -800,15 +800,16 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center ;
+    gap: 2rem;
 }
 
 .season_sale1{
-    width:35rem;
+    width:30rem;
     filter: drop-shadow(1px 3px 2px #070b0d6f);
 }
 
 .season_sale2{
-    width:35rem;
+    width:28rem;
     filter: drop-shadow(1px 3px 2px #070b0d6f);
 }
 
