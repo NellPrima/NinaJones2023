@@ -241,7 +241,7 @@ footer{
 }
 
 .shop_banner{
-    width:30rem;
+    width:25rem;
     display: block;
     margin-left: auto;
     margin-right:auto;
@@ -554,8 +554,8 @@ header{
     float: left;
     position: relative;
     top:.9rem;
-    left: 5rem;
-    width: 10rem;
+    left: -4rem;
+    width: 8rem;
     
 }
 
@@ -568,7 +568,7 @@ header{
     align-items: center;
     justify-content: center;
     position: relative;
-    right:-4rem;
+    left:.5rem;
     
     
 }
@@ -584,15 +584,15 @@ header{
     font-family: crushed;
     font-size: 6rem;
     position: relative;
-    top:-6rem;
-    padding-top:5rem;
+    bottom:4rem;
+    padding-top:2rem;
     text-align: center;
     z-index: 5;
    
 }
 
 .shop_banner{
-    width:30rem;
+    width:26rem;
     height: 5rem;
     display: block;
     margin-left: auto;
