@@ -1494,7 +1494,7 @@ main{
 
 .home_banner{
    
-    background-image: url(imgs/homepageimg.jpg);
+    background-image: url(imgs/homepageimg\ optimized.jpg);
     background-size: cover;
     background-position: center;
     background-repeat:no-repeat;
