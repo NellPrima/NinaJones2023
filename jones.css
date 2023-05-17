@@ -1010,7 +1010,7 @@ input[type=submit]:hover{
      visibility: hidden;
      background-color:#f5f3f3c0;
      z-index: 6;
-     height: 20rem;
+     height: 15rem;
      width:10rem;
     
      
@@ -1305,8 +1305,9 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
-    left:40rem;
+    left:25rem;
     bottom: 5rem;
+    
 
     
 }
@@ -1438,7 +1439,7 @@ li a{
     color:#c88989;
     position: relative;
     top:.5rem;
-    left:30rem;
+    left:24rem;
   
 }
 
