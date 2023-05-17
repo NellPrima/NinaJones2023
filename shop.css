@@ -384,19 +384,7 @@ footer{
     
     
 }
-/*
 
-.signup{
-    color:#070b0d;
-    font-family: crushed;
-    font-size: 1.5rem;
-    position: relative;
-    top:2.5rem;
-    letter-spacing: 0.222;
-    margin-right: 5rem;
-    
-}
-*/
 input[type=text]{
     width: 20rem;
     padding:6px ;
@@ -513,7 +501,7 @@ input[type=submit]:hover{
 
 /********************Cell Phone**************************************/
 
-@media only screen  and (min-width:320px) and (max-width:768px) /*between 320 and 768*/ {
+@media (320px <= width <= 501px)/*between 320 and 501*/ {
 
 
 header{
@@ -796,12 +784,288 @@ input[type=submit]:hover{
 }
 
 
+/********************Cell Phone 2**************************************/
+
+@media (502px <= width <= 600px){
+
+    
+header{
+	position: relative;
+	top:0;
+	width: auto;
+    height: 6rem;
+}
+
+
+.nav{
+   position: relative;
+    visibility: hidden;
+	background-color:#f5f3f3c0;
+	z-index: 6;
+	height: 15rem;
+	width:8rem;
+   
+	
+}
+
+.nav ul li a:hover{
+    color:#f5f3f3;
+    background-color: #c88989;
+    padding: .4rem;
+    border-radius: .2rem;
+}
+   
+   
+   
+   
+   
+   
+   
+
+
+.nina_logo{
+    float: left;
+    position: relative;
+    top:.9rem;
+    left: -4rem;
+    width: 8rem;
+    
+}
+
+
+
+
+    .tooltip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:3rem;
+    
+    
+    
+}
+
+
+
+
+/*main code start*/
+
+
+.title{
+    position: relative;
+    color: #c88989;
+    font-family: crushed;
+    font-size: 6rem;
+}
+
+.shop_banner{
+    width:26rem;
+    height: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    position: relative;
+    z-index: 5;
+    top:-6rem;
+}
+
+
+/*main code end*/
+
+
+
+/****Footer Code Start cell ******/
+
+.foot_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    height: 24rem;
+    background-color: #c88989;
+    clear: both;
+    bottom: 0;
+    clear: both;
+    position: relative;
+    top:8rem;
+}
+
+
+
+.flex_foot_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:1.6rem;
+    position: relative;
+    top:-2rem;
+    
+}
+
+/*footer form start*/
+
+
+.lorem_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+
+.signup{
+    color:#f5f3f3;
+    font-family: crushed;
+    font-size: 1.5rem;
+    position: relative;
+    top:.4rem;
+    letter-spacing: 0.222;
+    padding:1rem;
+    text-align: center;
+    
+}
+
+input[type=text]{
+    width: 18rem;
+    padding:6px ;
+    display:inline-block;
+    border-radius: .1rem;
+    box-sizing: border-box;
+    position: relative;
+    right:.8rem;
+    top:1rem;
+    border: none;
+    
+    
+}
+
+input[type=submit]{
+    cursor: pointer;
+    width:5rem;
+    height: 1.6rem;
+    border:none;
+    border-radius: .240rem;
+    background-color:#070b0d;
+    color:#f5f3f3;
+    position: relative;
+    bottom:2.5rem;
+    left:9.5rem;
+    font-family: noto sans kr;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    top:-0.6rem;
+
+}
+
+
+input[type=submit]:hover{
+    background-color:#f5f3f3;
+    color:#070b0d;
+
+}
+
+
+/*footer form end*/
+
+.lorem{
+    font-family: noto sans kr;
+    font-size: .7rem;
+    color:#f5f3f3;
+    line-height: 1rem;
+    width:100%;
+    position: relative;
+    left:.2rem;
+    padding:1rem;
+    padding-right: 2rem;
+   
+    
+    
+    
+  
+   
+    
+}
+
+
+
+.second_menu_flex a{
+    text-decoration: none;
+}
+
+.second_menu_flex p:hover{
+    text-decoration: underline;
+    color:#f5f3f3;
+}
+
+.fa-brands{
+    color:#070b0d;
+}
+
+.fa-brands:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+.second_menu_flex p{
+    
+    color:#f5f3f3;
+    font-family: crushed;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#copy_right{
+    text-align: center;
+    color:#f5f3f3;
+    text-align: center;
+    font-family: noto sans kr;
+    position: relative;
+    top:4rem;
+    font-size: .7rem;
+    right: 1rem;
+}
+
+
+
+
+
+
+
+/***Footer Code End cell*********/
+
+
+}
+
+/********************Cell Phone 2 End**************************************/
+
+
 
 
 
 /*********************Tablet*****************************/
 
-@media only screen and (min-width:608px) and (max-width:800px) /*between 768 and 1024*/  {
+@media only screen and (min-width:701px) and (max-width:800px) /*between 768 and 1024*/  {
     
     .nav{
         position:relative ;
@@ -811,10 +1075,6 @@ input[type=submit]:hover{
         width:8rem;
         float:left;
         z-index: 1 ;
-    
-       
-     
-        
          
      }
 
@@ -824,7 +1084,7 @@ input[type=submit]:hover{
         position: relative;
         top:.5rem;
         left:12rem;
-        width: 10rem;
+        width: 8rem;
         
     }
     
@@ -861,7 +1121,7 @@ input[type=submit]:hover{
         width:35rem;
         position: relative;
         z-index: 4;
-        top:1rem;
+        top:-6rem;
         display: block;
         margin-bottom: auto;
         margin-left: auto;
