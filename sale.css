@@ -5,10 +5,9 @@
 }
 
 body{
-    background-color: #f5f3f3;
+    background-color:#f5f3f3 ;
 }
 
-/*Header code here*/
 .btn_toggle_nav{
    
     width:80px;
@@ -19,13 +18,12 @@ body{
     background-position: center;
     cursor: pointer;
     visibility: visible;
+    z-index: 3;
     position: relative;
     right: 1rem;
-    bottom:.7rem;
-  
   
 }
-html,
+
 body{
     background:#f5f3f3;
     width:100%;
@@ -36,8 +34,12 @@ body{
     
 }
 
-
-
+.nav ul a{
+    position: relative;
+    z-index: 2;
+    
+	
+}
 
 .nav {
     visibility: hidden;
@@ -47,6 +49,8 @@ body{
     font-family: crushed, Times New Roman, Times, serif;
     padding:.8rem;
     line-height: 2.5rem;
+    height: 15rem;
+  
     
     
 }
@@ -67,71 +71,61 @@ li a{
    
 }
 
-.nav ul li a:hover{
-    color:#f5f3f3;
-    background-color: #c88989;
-    padding: .4rem;
-    border-radius: .2rem;
-   
-  
- 
 
 
-}
 
-
-/*other header code start*/
-  
+footer{
     
-header{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20rem;
+    background-color: #c88989;
+    clear: both;
+    bottom: 0;
+    clear: both;
     position: relative;
-    top:0;
-    width: auto;
-    height: 6rem;
+    top:8rem;
 }
 
 
 
-.header_grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2.5rem;
-  
-}
+
+
+
+
+
+
+
+/*header code*************************************************************/
+
+
+
 
 
 
 
 .nav{
-   position: relative;
-   visibility: hidden;
-   background-color:#f5f3f3c0;
- 
-   height: 18.5rem;
-   width:8rem;
-   float:left;
-   z-index: 1;
-  
-
-   
-    
+    float: left;
 }
 
 
-.nina_logo{
 
-    position:relative;
-    top:.7rem;
-    width: 8rem;
-    left:.4rem;
+.nina_logo:hover{
+    cursor: pointer;
 
 }
 
 
 
 .shop_logo{
+   
+   
+    
     width: 1.2rem;
     height: 1.2rem;
+   
+
 }
 
 .shop_logo:hover{
@@ -147,12 +141,10 @@ header{
     align-items: center;
     gap:1.2rem;
     position: relative;
-    top:.6rem;
-    
-  
-    
+    top:1rem;
    
 }
+
 
 /*ToolTip section******************************************/
 .tooltip{
@@ -161,11 +153,9 @@ header{
     align-items: center;
     justify-content: center;
     position: relative;
-   
-   
-   
-
 }
+
+
  .tooltxt{
     visibility:hidden;
     width:3rem;
@@ -226,6 +216,8 @@ header{
 
 /*End ToolTip section*******************************************/
 
+
+
 /*end header code**************************************************************************/
 
 
@@ -234,59 +226,38 @@ header{
 
 
 
-/*Search bar*****************************************************************************/
 
+/*main code start*/
 
-
-
-input[type=text]{
-
-  width: 19rem;
-  height: 1.630rem;
-  background: #e1e6e1;
-  position: relative;
-  bottom:18rem;
-  border-radius: 10rem;
-  text-transform: uppercase;
-  color:#070b0d89;
-  border:1px solid#070b0d;
-  font-family: 'Noto Sans KR, Franklin Gothic Medium, Arial Narrow', Arial, sans-serif;
-
-  
-    
-
-    
-}
-
-.search_flex{
-   position: relative;
-   left:7rem;
-   z-index: 0;
-   top:3rem;
-
-  
-}
-
-
-
-
-/*search bar end*/
-/*other header code end*/
-
-/*End Header code*/
-
-
-
-
-/*Main stuff code*/
-
-.page_title{
+.shopping_banner_group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width:100%;
     text-align: center;
-    color: #c88989;
-    font-family: crushed;
-    font-size: 6rem;
-    padding-bottom: 2rem;
+    position: relative;
+    bottom: 6rem;
+  
 }
+
+.shop_banner{
+    width:30rem;
+    height: 5rem;
+    position: relative;
+    z-index: 5;
+   
+}
+
+.title{
+    font-size: 6rem;
+    font-family: crushed;
+    color:#c88989;
+}
+
+
+
 
 .outfit{
     width: 10rem;
@@ -343,6 +314,7 @@ input[type=text]{
     gap:.5rem;
 }
 
+
 .price{
     color:#070b0d94;
     font-size: 0.8rem;
@@ -362,14 +334,15 @@ input[type=text]{
 
 
 
-/*Main stuff code end*/
 
 
 
-
-
+/*main code end*/
 
 /*Footer Code*/
+
+/********FOOTER CODE************************/
+
 .foot_flex{
     display: flex;
     flex-direction: column;
@@ -387,14 +360,13 @@ footer{
     left: 0;
     right: 0;
     height: auto;
-    height: 22rem;
+    height: 20rem;
     background-color: #c88989;
     clear: both;
     bottom: 0;
     clear: both;
     position: relative;
     top:8rem;
-    
 }
 
 
@@ -419,17 +391,6 @@ footer{
     justify-content: center;
    
     
-    
-}
-
-.signup{
-    color:#070b0d;
-    font-family: crushed;
-    font-size: 1.5rem;
-    position: relative;
-    top:2.5rem;
-    letter-spacing: 0.222;
-    margin-right: 5rem;
     
 }
 
@@ -498,7 +459,7 @@ input[type=submit]:hover{
   justify-content: center;
   position: relative;
   top:2rem;
-  right: -1rem;
+ 
 }
 
 .second_menu_flex a{
@@ -542,4 +503,988 @@ input[type=submit]:hover{
 }
 
 
-/*End Footer code*/
+/*Footer Code end*/
+
+/*
+
+
+/********************Cell Phone**************************************/
+
+@media (320px <= width <= 692px)/*between 320 and 768*/ {
+
+
+header{
+	position: relative;
+	top:0;
+	width: auto;
+    height: 6rem;
+}
+
+
+.nav{
+   position: relative;
+    visibility: hidden;
+	background-color:#f5f3f3c0;
+	z-index: 6;
+	height: 15rem;
+	width:8rem;
+   
+	
+}
+
+.nav ul li a:hover{
+    color:#f5f3f3;
+    background-color: #c88989;
+    padding: .4rem;
+    border-radius: .2rem;
+}
+   
+
+.nina_logo{
+    float: left;
+    position: relative;
+    top:.9rem;
+    left: -4rem;
+    width: 8rem;
+    
+}
+
+    .tooltip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:4rem;
+    
+    
+}
+
+
+/*main code start*/
+
+
+
+/*main code end*/
+
+
+
+/****Footer Code Start cell ******/
+
+.foot_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    height: 24rem;
+    background-color: #c88989;
+    clear: both;
+    bottom: 0;
+    clear: both;
+    position: relative;
+    top:8rem;
+}
+
+
+
+.flex_foot_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:1.6rem;
+    position: relative;
+    top:-2rem;
+    
+}
+
+/*footer form start*/
+
+
+.lorem_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+
+.signup{
+    color:#f5f3f3;
+    font-family: crushed;
+    font-size: 1.5rem;
+    position: relative;
+    top:.4rem;
+    letter-spacing: 0.222;
+    padding:1rem;
+    text-align: center;
+    
+}
+
+input[type=text]{
+    width: 18rem;
+    padding:6px ;
+    display:inline-block;
+    border-radius: .1rem;
+    box-sizing: border-box;
+    position: relative;
+    right:.8rem;
+    top:1rem;
+    border: none;
+    
+    
+}
+
+input[type=submit]{
+    cursor: pointer;
+    width:5rem;
+    height: 1.6rem;
+    border:none;
+    border-radius: .240rem;
+    background-color:#070b0d;
+    color:#f5f3f3;
+    position: relative;
+    bottom:2.5rem;
+    left:9.5rem;
+    font-family: noto sans kr;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    top:-0.6rem;
+
+}
+
+
+input[type=submit]:hover{
+    background-color:#f5f3f3;
+    color:#070b0d;
+
+}
+
+
+/*footer form end*/
+
+.lorem{
+    font-family: noto sans kr;
+    font-size: .7rem;
+    color:#f5f3f3;
+    line-height: 1rem;
+    width:100%;
+    position: relative;
+    left:.2rem;
+    padding:1rem;
+    padding-right: 2rem;
+   
+    
+    
+    
+  
+   
+    
+}
+
+
+
+.second_menu_flex a{
+    text-decoration: none;
+}
+
+.second_menu_flex p:hover{
+    text-decoration: underline;
+    color:#f5f3f3;
+}
+
+.fa-brands{
+    color:#070b0d;
+}
+
+.fa-brands:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+.second_menu_flex p{
+    
+    color:#f5f3f3;
+    font-family: crushed;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#copy_right{
+    text-align: center;
+    color:#f5f3f3;
+    text-align: center;
+    font-family: noto sans kr;
+    position: relative;
+    top:4rem;
+    font-size: .7rem;
+    right: 1rem;
+}
+
+
+
+/***Footer Code End cell*********/
+
+
+    
+}
+
+
+
+
+
+
+
+/********************Cell Phone 2**************************************
+
+@media (502px <= width <= 630px){
+
+ 
+    
+header{
+	position: relative;
+	top:0;
+	width: auto;
+    height: 6rem;
+}
+
+
+.nav{
+   position: relative;
+    visibility: hidden;
+	background-color:#f5f3f3c0;
+	z-index: 6;
+	height: 15rem;
+	width:8rem;
+   
+	
+}
+
+.nav ul li a:hover{
+    color:#f5f3f3;
+    background-color: #c88989;
+    padding: .4rem;
+    border-radius: .2rem;
+}
+   
+   
+   
+   
+   
+   
+   
+
+
+.nina_logo{
+    float: left;
+    position: relative;
+    top:.9rem;
+    left: -4rem;
+    width: 8rem;
+    
+}
+
+
+
+
+    .tooltip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left:3rem;
+    
+    
+    
+}
+
+
+
+
+
+/*main code start*
+
+
+
+
+
+/*main code end*
+
+
+
+/****Footer Code Start cell ******
+
+/***Footer Code End cell*********
+
+
+}
+
+
+
+********************Cell Phone 2 End**************************************/
+
+
+
+
+
+/*********************Tablet*****************************/
+
+@media (692px <= width <= 1000px ) /*between 768 and 1024*/ {
+    
+    .nav{
+        position:relative ;
+        visibility: hidden;
+        background-color:#f5f3f3c0;
+        height: 15rem;
+        width:8rem;
+        float:left;
+        z-index: 6 ;
+         
+     }
+
+     .nav ul a{
+        position: relative;
+        z-index: 2;
+        
+        
+    }
+
+  
+
+  
+
+
+    .nina_logo{
+        float: left;
+        position: relative;
+        bottom:-1.1rem;
+        left:-4rem;
+        width: 10rem;
+        
+    }
+    
+    
+    
+    
+        .tooltip{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left:8rem;
+        
+        
+    }
+    /*Header Code End****/
+
+
+
+    .shop_banner{
+        width:45rem;
+        height: 6rem;
+    }
+
+    
+.outfit{
+    width: 14rem;
+
+}
+
+.grid_clothes{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding:.5rem;
+   
+    
+}
+
+.group_1, .group_2, .group_3{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+   
+    gap:10rem;
+}
+
+
+/*****************Footer Code Start************************/
+
+
+.foot_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    height: 24rem;
+    background-color: #c88989;
+    clear: both;
+    bottom: 0;
+    clear: both;
+    position: relative;
+    top:8rem;
+}
+
+
+
+.flex_foot_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:1.6rem;
+    position: relative;
+    top:-2rem;
+    
+}
+
+/*footer form start*/
+
+
+.lorem_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+
+.signup{
+    color:#f5f3f3;
+    font-family: crushed;
+    font-size: 1.5rem;
+    position: relative;
+    top:.4rem;
+    letter-spacing: 0.222;
+    padding:1rem;
+    text-align: center;
+    
+}
+
+input[type=text]{
+    width: 18rem;
+    padding:6px ;
+    display:inline-block;
+    border-radius: .1rem;
+    box-sizing: border-box;
+    position: relative;
+    right:.8rem;
+    top:1rem;
+    border: none;
+    
+    
+}
+
+input[type=submit]{
+    cursor: pointer;
+    width:5rem;
+    height: 1.6rem;
+    border:none;
+    border-radius: .240rem;
+    background-color:#070b0d;
+    color:#f5f3f3;
+    position: relative;
+    bottom:2.5rem;
+    left:9.5rem;
+    font-family: noto sans kr;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    top:-0.6rem;
+
+}
+
+
+input[type=submit]:hover{
+    background-color:#f5f3f3;
+    color:#070b0d;
+
+}
+
+
+/*footer form end*/
+
+.lorem{
+    font-family: noto sans kr;
+    font-size: .8rem;
+    color:#f5f3f3;
+    line-height: 1rem;
+    width:100%;
+    position: relative;
+    left:.2rem;
+    padding:2rem;
+    padding-right: 3rem;
+    text-align: justify;
+    
+}
+
+
+
+.second_menu_flex a{
+    text-decoration: none;
+}
+
+.second_menu_flex p:hover{
+    text-decoration: underline;
+    color:#f5f3f3;
+}
+
+.fa-brands{
+    color:#070b0d;
+}
+
+.fa-brands:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+.second_menu_flex p{
+    
+    color:#f5f3f3;
+    font-family: crushed;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#copy_right{
+    text-align: center;
+    color:#f5f3f3;
+    text-align: center;
+    font-family: noto sans kr;
+    position: relative;
+    top:4rem;
+    font-size: .7rem;
+    right: 1rem;
+}
+
+
+
+
+
+
+
+/****************Footer Code End***************************/
+
+}
+
+/*******************Tablet End**************************/
+
+
+
+
+
+
+
+/*********************Desktop***********************************/
+
+@media (1000px <= width <= 2000px){
+
+    
+.nav{
+    position: relative;
+     visibility: visible;
+     
+     z-index: 6;
+     height: 3rem;
+     width:100%;
+    
+     
+ }
+
+ .btn_toggle_nav{
+    visibility: hidden;
+
+  
+}
+
+.nav ul a{
+    color:#070b0d;
+}
+
+
+
+.nav {
+    visibility: visible;
+    text-decoration: none;
+    color:#c88989;
+    font-size: 1.5rem;
+    font-family: crushed, Times New Roman, Times, serif;
+    padding:.8rem;
+    line-height: 2.5rem;
+    
+    
+}
+
+li{
+    float: left;
+    
+}
+
+li a{
+	padding-left: .8rem;
+    text-decoration: none;
+    color:#c88989;
+    position: relative;
+    top:.5rem;
+    left:24rem;
+  
+}
+
+a{
+    padding:1.2rem;
+}
+
+a:active{
+    color:#c88989;
+
+}
+
+
+
+
+
+.nav a:hover{
+   cursor: pointer;
+   
+   
+}
+
+.nav ul li a:hover{
+    color:#c88989;
+    text-decoration: underline;
+  
+   
+    padding: .4rem;
+    border-radius: .2rem;
+}
+
+
+
+
+ 
+    
+    .nina_logo{
+        position: relative;
+        left:3rem;
+        width:12rem;
+        bottom:2rem;
+        z-index: 3;
+     }
+
+
+     .tooltip{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left:25rem;
+        bottom: 5rem;
+      
+       
+    
+        
+    }
+
+
+    
+    
+
+
+
+    /*Header Code End****/
+
+    .shopping_banner_group{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        width:100%;
+        text-align: center;
+        position: relative;
+        bottom: -1rem;
+        padding-top: 4rem;
+      
+    }
+
+    body{
+  
+        width:100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+        
+    }
+
+
+
+    .shop_banner{
+        width:50rem;
+        height: 8rem;
+        
+    }
+
+    .title{
+        padding-bottom: 4rem;
+    }
+
+    
+.outfit{
+    width: 14rem;
+
+}
+
+.grid_clothes{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding:.5rem;
+    flex-wrap: wrap;
+    gap:5rem;
+   
+    
+}
+
+.group_1, .group_2, .group_3{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    gap:10rem;
+}
+
+
+
+
+/*****************Footer Code Start************************/
+
+
+.foot_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    height: 28rem;
+    background-color: #c88989;
+    clear: both;
+    bottom: 0;
+    clear: both;
+    position: relative;
+    top:8rem;
+}
+
+
+
+.flex_foot_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:1.6rem;
+    position: relative;
+    top:-2rem;
+   
+    
+}
+
+/*footer form start*/
+
+
+.lorem_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+
+.signup{
+    color:#f5f3f3;
+    font-family: crushed;
+    font-size: 2rem;
+    position: relative;
+    top:.4rem;
+    letter-spacing: 0.222;
+    padding:1rem;
+    text-align: center;
+    
+}
+
+input[type=text]{
+    width: 18rem;
+    padding:6px ;
+    display:inline-block;
+    border-radius: .1rem;
+    box-sizing: border-box;
+    position: relative;
+    right:.8rem;
+    top:1rem;
+    border: none;
+    
+    
+}
+
+input[type=submit]{
+    cursor: pointer;
+    width:5rem;
+    height: 1.6rem;
+    border:none;
+    border-radius: .240rem;
+    background-color:#070b0d;
+    color:#f5f3f3;
+    position: relative;
+    bottom:2.5rem;
+    left:9.5rem;
+    font-family: noto sans kr;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    top:-0.6rem;
+
+}
+
+
+input[type=submit]:hover{
+    background-color:#f5f3f3;
+    color:#070b0d;
+
+}
+
+
+/*footer form end*/
+
+.lorem{
+    font-family: noto sans kr;
+    font-size: 1rem;
+    color:#f5f3f3;
+    line-height: 1.5rem;
+    width:100%;
+    position: relative;
+    left:.4rem;
+    padding:2.2rem;
+    padding-right: 4rem;
+  
+    
+}
+
+
+
+.second_menu_flex a{
+    text-decoration: none;
+}
+
+.second_menu_flex p:hover{
+    text-decoration: underline;
+    color:#f5f3f3;
+}
+
+.fa-brands{
+    color:#070b0d;
+}
+
+.fa-brands:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+.second_menu_flex p{
+    
+    color:#f5f3f3;
+    font-family: crushed;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#copy_right{
+    text-align: center;
+    color:#f5f3f3;
+    text-align: center;
+    font-family: noto sans kr;
+    position: relative;
+    top:4rem;
+    font-size: .7rem;
+    right: 1rem;
+}
+
+
+
+
+
+
+
+/****************Footer Code End***************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/*********************Desktop End**********************************/

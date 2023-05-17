@@ -1305,7 +1305,7 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
-    left:25rem;
+    left:40rem;
     bottom: 5rem;
     
 
@@ -1420,7 +1420,7 @@ body{
     visibility: visible;
     text-decoration: none;
     color:#c88989;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: crushed, Times New Roman, Times, serif;
     padding:.8rem;
     line-height: 2.5rem;
@@ -1439,7 +1439,9 @@ li a{
     color:#c88989;
     position: relative;
     top:.5rem;
-    left:24rem;
+    left:40rem;
+   
+    
   
 }
 
@@ -1533,7 +1535,7 @@ main{
     cursor: pointer;
     border:none;
     width: 12vw;
-    height:4vh;
+    height:6vh;
     border-radius: 1rem;
     background: #c88989;
     color:#fdfbfb;
@@ -1702,7 +1704,7 @@ input[type=submit]:hover{
 
 .lorem{
     font-family: noto sans kr;
-    font-size: .8rem;
+    font-size: .9rem;
     color:#f5f3f3;
     line-height: 1rem;
     width:100%;
