@@ -664,7 +664,7 @@ header{
     float: left;
     position: relative;
     top:.9rem;
-    left: -2rem;
+    left: -4rem;
     width: 8rem;
     
 }
@@ -939,12 +939,6 @@ input[type=submit]:hover{
     left:.2rem;
     padding:1rem;
     padding-right: 2rem;
-   
-    
-    
-    
-  
-   
     
 }
 
