@@ -264,6 +264,31 @@ footer{
 
 }
 
+.dress1{
+    position: relative;
+    bottom:2rem;
+}
+
+.dress11{
+    position: relative;
+    bottom:2rem;
+
+}
+
+.price1{
+    position: relative;
+    bottom:2rem;
+}
+
+.dress2{
+    width: 88rem;
+    position: relative;
+    bottom:2rem;
+    height: 22rem;
+    border:2px solid red;
+    
+}
+
 .grid_clothes{
     display:flex;
     flex-direction: column;
