@@ -575,7 +575,7 @@ footer{
     left: 0;
     right: 0;
     height: auto;
-    height: 24rem;
+    height: 32rem;
     background-color: #c88989;
     clear: both;
     bottom: 0;
@@ -740,95 +740,6 @@ input[type=submit]:hover{
 
 
 
-/********************Cell Phone 2**************************************
-
-@media (502px <= width <= 630px){
-
- 
-    
-header{
-	position: relative;
-	top:0;
-	width: auto;
-    height: 6rem;
-}
-
-
-.nav{
-   position: relative;
-    visibility: hidden;
-	background-color:#f5f3f3c0;
-	z-index: 6;
-	height: 15rem;
-	width:8rem;
-   
-	
-}
-
-.nav ul li a:hover{
-    color:#f5f3f3;
-    background-color: #c88989;
-    padding: .4rem;
-    border-radius: .2rem;
-}
-   
-   
-   
-   
-   
-   
-   
-
-
-.nina_logo{
-    float: left;
-    position: relative;
-    top:.9rem;
-    left: -4rem;
-    width: 8rem;
-    
-}
-
-
-
-
-    .tooltip{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    left:3rem;
-    
-    
-    
-}
-
-
-
-
-
-/*main code start*
-
-
-
-
-
-/*main code end*
-
-
-
-/****Footer Code Start cell ******
-
-/***Footer Code End cell*********
-
-
-}
-
-
-
-********************Cell Phone 2 End**************************************/
-
 
 
 
@@ -936,7 +847,7 @@ footer{
     left: 0;
     right: 0;
     height: auto;
-    height: 24rem;
+    height: 34rem;
     background-color: #c88989;
     clear: both;
     bottom: 0;
@@ -1302,7 +1213,7 @@ footer{
     left: 0;
     right: 0;
     height: auto;
-    height: 28rem;
+    height: 36rem;
     background-color: #c88989;
     clear: both;
     bottom: 0;
@@ -1394,7 +1305,7 @@ input[type=submit]:hover{
 
 .lorem{
     font-family: noto sans kr;
-    font-size: 1rem;
+    font-size: .8rem;
     color:#f5f3f3;
     line-height: 1.5rem;
     width:100%;
