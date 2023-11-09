@@ -1914,13 +1914,24 @@ input[type=text], select{
     line-height: 1rem;
     letter-spacing: 0.123rem;
     }
+
+    .fake_para1{
+        padding:2rem;
+        text-align: justify;
+        font-size: 1rem;
+        font-family: noto sans kr;
+        line-height: 2rem;
+        kerning: 1rem;
+        padding-top: 3rem;
+
+    }
     
     .fake_para2{
     padding:2rem;
     text-align: justify;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-family: noto sans kr;
-    line-height: 1.5rem;
+    line-height: 2rem;
     kerning: 1rem;
     padding-top: 3rem;
     
